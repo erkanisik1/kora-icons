@@ -1,4 +1,4 @@
-project(pisilinux-theme-maia-light NONE)
+project(kora-icons NONE)
 
 cmake_minimum_required(VERSION 2.8)
 # include specific modules
@@ -13,7 +13,7 @@ endif(WIN32)
 
 ########### install files ###############
 
-set( maia_icon_dirs  actions animations apps categories devices emblems emotes mimetypes panel places status)
+set( actions animations apps categories devices emblems emotes mimetypes panel places status)
 
 
 set(MAIA_INSTALL_DIR ${ICON_INSTALL_DIR}/kora)
